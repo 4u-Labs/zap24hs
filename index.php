@@ -35,7 +35,8 @@ $whatsappLinkEn = "https://wa.me/" . $whatsappNumber . "?text=" . urlencode("Hel
 
     <!-- Manifest and Favicon -->
     <link rel="manifest" href="manifest.json">
-    <link rel="icon" type="image/png" sizes="64x64" href="favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=20261120-2">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico?v=20261120-2">
     <link rel="apple-touch-icon" href="icon-192.png">
     <meta name="theme-color" content="#00e676">
 
@@ -47,6 +48,9 @@ $whatsappLinkEn = "https://wa.me/" . $whatsappNumber . "?text=" . urlencode("Hel
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css?v=<?php echo $assetVersion; ?>">
+
+    <!-- 4u-Labs SEO & Standard Meta -->
+    <link rel="canonical" href="https://4u.ia.br/app/zap24hs/">
 </head>
 <body data-lang="pt">
 
